@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'LLPodTest_Example' do
+  pod 'LLPodTest' , :git => 'https://github.com/bullerliu/LLPodTest.git'
+
+  target 'LLPodTest_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end

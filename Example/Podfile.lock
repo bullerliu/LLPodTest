@@ -1,0 +1,32 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - LLPodTest (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - LLPodTest (from `https://github.com/bullerliu/LLPodTest.git`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  LLPodTest:
+    :git: https://github.com/bullerliu/LLPodTest.git
+
+CHECKOUT OPTIONS:
+  LLPodTest:
+    :commit: ecef28a4b4dce9bec02b66f9101757f8ef01978f
+    :git: https://github.com/bullerliu/LLPodTest.git
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  LLPodTest: c162cc3b6978eb26cd33b3fee7a17630fa530c91
+
+PODFILE CHECKSUM: b85dee362e628b9ed80f0c21ad1bba79103fdfac
+
+COCOAPODS: 1.10.1
